@@ -1,0 +1,7 @@
+const request = require("request");
+ request(
+    "http://www.omdbapi.com/?i=tt3896198&apikey=47f378e3",
+    function(err, response, body){
+        console.log(body);
+    }
+    );
